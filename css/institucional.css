@@ -52,3 +52,12 @@
 .institucional__video {
     width: 100vw;
 }
+
+@media screen and (min-width: 768px) {
+    .institucional__contato a {
+        margin: 0 .4rem;
+    }
+    .institucional__contato-email{
+        display: inline-block;
+    }
+}
