@@ -60,4 +60,7 @@
     .institucional__contato-email{
         display: inline-block;
     }
+    .institucional__video{
+        width: 100%;
+    }
 }
