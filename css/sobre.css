@@ -32,3 +32,22 @@
 
     margin-bottom: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        display: flex;
+    }
+    .sobre__conteudo {
+        padding-right: 4rem;
+    }
+    .sobre__titulo {
+        text-align: start;
+    }
+    .sobre__texto--destaque {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--cinza-medio);
+    }
+    .sobre__texto--divisao {
+        padding-right: 2rem;
+    }
+}
