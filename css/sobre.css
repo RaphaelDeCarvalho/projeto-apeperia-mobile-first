@@ -33,6 +33,10 @@
     margin-bottom: 1rem;
 }
 
+.sobre__imagem{
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .sobre {
         display: flex;
@@ -49,5 +53,8 @@
     }
     .sobre__texto--divisao {
         padding-right: 2rem;
+    }
+    .sobre__imagem{
+        display: block;
     }
 }
