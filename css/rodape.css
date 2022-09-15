@@ -34,3 +34,15 @@
 
     margin: 0 .5rem .7rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;
+        gap: 0 50%;
+    }
+    .rodape__link {
+        margin: 0 0.6rem;
+    }
+}
