@@ -47,6 +47,7 @@
     color: var(--fonte-link);
     text-decoration: underline;
     display: block;
+    text-decoration: none;
 }
 
 .institucional__video {
@@ -62,5 +63,26 @@
     }
     .institucional__video{
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional__conteudo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .institucional__texto {
+        text-align: start;
+    }
+    .institucional__video {
+        width: 40%;
+    }
+    .institucional__endereco {
+        margin-bottom: 0;
+    }
+    .institucional__contato-email {
+        display: flex;
+        flex-direction: column;
     }
 }
