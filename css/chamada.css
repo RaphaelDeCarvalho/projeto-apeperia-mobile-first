@@ -42,6 +42,7 @@
     .chamada {
         background-image: url(../img/bg-intro.jpg);
         background-position: center;
+        background-size: cover;
         padding-top: 9.25rem;
     }
     .chamada__titulo {
