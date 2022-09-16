@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 :root {
     --branco: #FFF;
     --azul-claro: #DFE3F5;
